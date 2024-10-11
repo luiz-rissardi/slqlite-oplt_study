@@ -1,0 +1,7 @@
+{
+    "watch": ["*"],
+    "ext": "ts",
+    "ignore": ["command/**/*.spec.ts"],
+    "exec": "node --loader ts-node/esm  --experimental-sqlite src/infra/index.ts"
+  }
+  

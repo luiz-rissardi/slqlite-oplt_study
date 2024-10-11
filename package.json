@@ -1,0 +1,29 @@
+{
+  "name": "integration-study-optl-mysqlite-ts",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "s": "node --inspect --watch --experimental-sqlite src/infra/index.js",
+    "n": "nodemon",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@opentelemetry/exporter-trace-otlp-grpc": "^0.53.0",
+    "@opentelemetry/instrumentation-express": "^0.43.0",
+    "@opentelemetry/instrumentation-http": "^0.53.0",
+    "@opentelemetry/sdk-node": "^0.53.0",
+    "@types/express": "^5.0.0",
+    "@types/node": "^22.7.5",
+    "body-parser": "^1.20.3",
+    "express": "^4.21.1",
+    "nodemon": "^3.1.7",
+    "sql-bricks": "^3.0.1",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.6.3"
+  }
+}
